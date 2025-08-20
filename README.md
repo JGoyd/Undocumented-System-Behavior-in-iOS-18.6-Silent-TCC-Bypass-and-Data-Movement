@@ -28,6 +28,11 @@ This report documents **undocumented system behavior** observed in iOS 18.6, whe
 
 This behavior violates the assumptions behind Apple's TCC privacy framework and is **not disclosed** in Apple’s documentation.
 
+## Log Evidence
+
+https://ia600904.us.archive.org/25/items/silent-tcc-bypass-undocumented-video/Silent%20TCC%20Bypass%20Undocumented%20Video.mov
+
+
 ---
 
 ##  Reproduce It Yourself
