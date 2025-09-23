@@ -35,33 +35,6 @@ https://ia600904.us.archive.org/25/items/silent-tcc-bypass-undocumented-video/Si
 
 ---
 
-##  Reproduce It Yourself
-
-### Requirements
-- iPhone running **iOS 18.6**
-- macOS with Apple **Console.app**
-- USB cable (no jailbreak required)
-
-### Steps
-
-1. Connect your iPhone via USB
-2. Run the following command in Terminal:
-    ```bash
-    log collect --output ~/Desktop/ios18_logs.logarchive
-    ```
-3. Open `Console.app`, load the `.logarchive`
-4. Filter logs by:
-    - `tccd`
-    - `cfprefsd`
-    - `sosd`
-    - `abm-helper`
-    - `nsurlsessiond`
-    - `symptomsd`
-5. Look for:
-    - `preflight=yes` (TCC)
-    - Writes to `com.apple.messages.commsafety`
-    - Silent network traffic (`rx`/`tx`) within seconds
-
 ---
 
 ##  Why It Matters
@@ -85,13 +58,6 @@ https://ia600904.us.archive.org/25/items/silent-tcc-bypass-undocumented-video/Si
 
 - [Apple TCC Framework](https://developer.apple.com/documentation/bundleresources/entitlements)
 - [iOS Privacy & Security Guide (PDF)](https://www.apple.com/privacy/docs/iOS_Security_Guide.pdf)
-
----
-
-##  License
-
-This research is provided for forensic, academic, and security awareness purposes only.  
-No reverse engineering or binary tampering was performed.
 
 ---
 
