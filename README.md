@@ -2,7 +2,7 @@
 
 **Author**: Joseph Goydish  
 **Date**: August 19, 2025  
-**Affected Versions**: iOS 18.6+ (Confirmed: iPhone 13–15)  
+**Affected Versions**: iOS 18.6 (Confirmed: iPhone 13–15)  
 **Access Required**: Physical device (no jailbreak or exploit)  
 **Detection Method**: Native system logs (`log collect`, `Console.app`, `sysdiagnose`)  
 
